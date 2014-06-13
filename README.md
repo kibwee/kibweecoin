@@ -3,11 +3,9 @@
 
 https://www.kibwee.com
 
-Copyright (c) 2009-2013 Bitcoin Developers
-
-Copyright (c) 2011-2014 DarkCoin Developers
-
-Copyright (c) 2014 KibweeCoin Developers
+	Copyright (c) 2009-2013 Bitcoin Developers
+	Copyright (c) 2011-2014 DarkCoin Developers
+	Copyright (c) 2014 KibweeCoin Developers
 
 
 What is KibweeCoin?
@@ -88,22 +86,23 @@ Linux Compilation
 
 Main Dependencies:
 
- - sudo apt-get install -y build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev libcurl4-openssl-dev
- - wget http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.8.tar.gz && tar -zxf download.php\?file\=miniupnpc-1.8.tar.gz && cd miniupnpc-1.8/
- - sudo make && sudo make install && cd .. && rm -rf miniupnpc-1.8 download.php\?file\=miniupnpc-1.8.tar.gz
+	sudo apt-get install -y build-essential libssl-dev libdb-dev libdb++-dev libboost-all-dev libqrencode-dev libcurl4-openssl-dev
+	wget http://miniupnp.free.fr/files/download.php?file=miniupnpc-1.8.tar.gz && tar -zxf download.php\?file\=miniupnpc-1.8.tar.gz && cd miniupnpc-1.8/
+	sudo make && sudo make install && cd .. && rm -rf miniupnpc-1.8 download.php\?file\=miniupnpc-1.8.tar.gz
 
 Daemon:
 
- - cd kibweecoin/src/leveldb/
- - sh build_detect_platform build_config.mk ./
- - cd ..
- - make -f makefile.unix
- - strip kibweecoind
+	cd kibweecoin/src/leveldb/
+	sh build_detect_platform build_config.mk ./
+	cd ..
+	make -f makefile.unix
+	strip kibweecoind
 
 QT:
- - cd kibweecoin/
- - qmake-qt4
- - make
+
+	cd kibweecoin/
+	qmake-qt4
+	make
  
 Good to know !
 --------------
