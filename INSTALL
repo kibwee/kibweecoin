@@ -1,0 +1,9 @@
+Building KibweeCoin
+
+See doc/readme-qt.rst for instructions on building KibweeCoin-Qt,
+the intended-for-end-users, nice-graphical-interface, reference
+implementation of KibweeCoin.
+
+See doc/build-*.txt for instructions on building kibweecoind,
+the intended-for-services, no-graphical-interface, reference
+implementation of KibweeCoin.
