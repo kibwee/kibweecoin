@@ -49,52 +49,38 @@ Specifications
  - Monetary symbol: Ꝅ
  - Monetary symbol Unicode number: U+A744
  - Monetary symbol HTML-code: &#42820;
-
  - PoW Algorithm: X11
  - PoC Algorithm: None
  - PoS Interest: 2% / year
-
  - PoW Basic reward per block: 8 KiB
  - PoW Time target per block: 60 seconds
  - PoW Distribution: The block finder earn the reward
  - PoW Difficulty adjustment: Dark Gravity Well
  - PoW Reward halves: on block 43200 (4 from 8 ), 129600 (2 from 4) and 259200 (1 from 2)
  - PoW coins to be mined: 1.019.520 KiB
-
  - PoC Time target per Roll: every 60 blocks (60 minutes)
  - PoC basic reward: 472 KiB
  - PoC Distribution: shared between all Contributors
  - PoC total coins: 2.718.720 KiB
  - PoW + PoC total coins: 3.738.240 KiB
-
  - PoW/PoC Block maturity: 220 blocks
  - End of the PoW/PoC period: on block 345600 (target: 8 months)
- 
  - Transaction confirmations: 6
 
 
 Config file example (kibweecoin.conf)
 -------------------------------------
 
-rpcuser=kibuser
-
-rpcpassword=kibpass
-
-port=38000
-
-rpcport=38001
-
-maxconnections=200
-
-rpcallowip=localhost
-
-rpcconnect=localhost
-
-gen=0
-
-testnet=0
-
-addnode=37.187.193.228
+	rpcuser=kibuser
+	rpcpassword=kibpass
+	port=38000
+	rpcport=38001
+	maxconnections=200
+	rpcallowip=localhost
+	rpcconnect=localhost
+	gen=0
+	testnet=0
+	addnode=37.187.193.228
 
 
 Linux Compilation
@@ -122,4 +108,4 @@ QT:
 Good to know !
 --------------
 
- - This version isn't including the PoS script yet. 
+ - This version isn't including the PoS script yet.
